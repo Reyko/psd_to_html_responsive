@@ -1,0 +1,490 @@
+body{
+    
+}
+
+a{text-decoration: none;}
+
+
+.wrapper{
+    width:936px;
+    margin:0 auto;
+/*    background: url("../images/grid_w936_c96_g24.png") repeat-y 50% 0;*/
+}
+
+
+
+/*Header*/
+
+header{
+
+height:108px;
+
+
+}
+
+
+
+.logo{
+/*    width:240px;*/
+    height:100%;
+/*    float:left;*/
+ /*   position:relative;*/
+}
+
+
+.logo-con{
+    width:240px;
+    height:100%;
+}
+
+.clear{
+    clear:both;
+}
+
+
+.line{
+    height:12px;
+    margin-bottom:10px;
+    background-color: #7b7b7b;
+
+}
+
+
+.bulb{
+
+    width:96px;
+    height:96px;
+    background:url("../images/bulb.png") no-repeat center #fb46ca;
+    border-radius: 100%;
+    position:absolute;
+/*    bottom:0;*/
+    display:block;
+
+}
+
+
+.bulb:hover{
+ -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    -moz-transition: -moz-transform 0.5s ease-in;
+    -o-transition: -o-transform 0.5s ease-in;
+    -ms-transition: -ms-transform 0.5s ease-in;
+}
+
+
+
+.logo-text{
+
+background:url("../images/alb-logotype.png") no-repeat bottom left;
+/*background-size:100%;*/
+height:100%;
+width:144px;
+float:right;    
+
+}
+
+
+
+
+nav{
+    width: 86%;
+    height:100%;
+    float:left;
+}
+
+
+nav ul{
+
+
+    margin-left: 120px;
+    padding-top: 32px;
+}
+
+
+nav ul li{
+
+    display:inline-block;
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-family: Verdana;
+    font-size: 18px;
+
+}
+
+nav ul li a{
+
+    color:#010101;
+
+}
+
+
+nav ul li a:visited{
+color:#010101;
+}
+
+nav ul li a:hover{
+color:#7b7b7b;
+}
+
+
+
+
+
+.basket{
+    height:100%;
+    width: 13.7%;
+    float:right;
+}
+
+
+
+
+
+.trolley-con{
+
+    width:96px;
+    height:37px;
+    background-color:#aea9a9;
+    margin-top:20px;
+    border-radius: 7px;
+    position:relative;
+    cursor:pointer;
+}
+
+.counter{
+
+    height:26px;
+    width:26px;
+    border-radius: 100%;
+    background-color: #d7d4d4;
+    position:absolute;
+    margin:5px 0 0 5px;
+    text-align: center;
+    line-height: 26px;
+}
+
+
+.trolley{
+
+
+width:65px;
+height:100%;
+float:right;
+background:url("../images/alb_icons_50x226.png") no-repeat;
+background-position: 12px -6px;
+
+
+}
+
+
+
+
+
+/*Banner*/
+
+.banner{
+
+    height:644px;
+
+}
+
+.banner-img{
+
+    background:url("../images/banner.png") no-repeat;
+    background-size:100%;
+    width:100%;
+    height:100%;
+
+}
+
+
+
+.banner h1{
+  font-family:Times, "Times New Roman", serif;
+    font-size: 50px;
+    width:576px;
+    height:159px;
+
+}
+
+.knowledge{
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.author{
+    font-size: 24px;
+    color:#087b25;
+
+}
+
+
+
+
+.item:nth-child(2){
+    margin-left:24px;
+}
+
+.item{
+
+    width:36%;
+    height:74px;
+    background-color:#e5e3e5;
+/*    float:right;*/
+/*    margin-left:24px;*/
+    font-family: Verdana;   
+    cursor:pointer;
+    padding:0;
+}
+
+
+
+
+.info{
+
+    width:250px;
+    height: 100%;
+    float:left;
+
+}
+
+
+.info-img{
+
+    background:url("../images/alb_icons_50x226.png") no-repeat;
+    width:42px;
+    height:55px;
+    margin:8px  0 0 11px;
+    float:left;
+}
+
+.paperback{
+
+    background-position: -5px -46px;
+
+
+}
+
+.ebook{
+    background-position: -5px -100px;
+   
+}
+
+
+.details{
+width:182px;
+float:right;
+padding-top:14px;
+}
+
+.details h3{
+
+margin-bottom:13px;
+font-size: 1.125em;
+font-weight:bold;
+}
+
+.details p{
+
+    
+    font-size: 16px;
+
+}
+
+
+
+.buy{
+
+    height:100%;
+    width:86px;
+    float:left;
+
+}
+
+.buy_btn{
+    width:71px;
+    height:41px;
+    background-color: #fb46ca;
+    margin:16px 14px 16px 0;
+    border-radius:8px;
+    text-align: center;
+    line-height: 41px;
+    font-size:18px;
+    display:none;
+
+}
+
+.buy_btn a{
+    color:#000;
+}
+
+.buy_btn a:visited{
+    color:#000;
+}
+
+.buy_btn a:hover{
+    color:#000;
+
+}
+
+
+
+.item:hover .buy_btn{display:block;}
+
+
+/* HAND */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .wrapper{
+        width:100%;
+    }
+
+    .bulb{
+
+      margin-left:10px;
+
+    }
+
+    .one-whole_phone {
+        width:100%;   
+    }
+
+    nav ul {
+        margin:5px;
+    }
+
+
+
+    .basket {
+     
+        margin-right: 12%;
+    }
+
+    .author {
+        font-size: 22px;
+    }
+
+    .banner h1 {
+        
+        width: 100%;
+        padding: 5%;
+
+    }
+
+    .banner-img{
+        margin-top:30%;
+    }
+
+    .item one-whole_phone {
+        clear:both;
+    }
+
+    .item:nth-child(2) {
+        margin:0;
+    }
+
+    .push--two-of-eight {
+
+        margin-left:0;
+    }
+
+    .buy {
+        float:right;
+    }
+
+    .item{
+        margin-bottom:10px;
+    }
+
+
+    .trolley-con {
+        position:absolute;
+        top:0;
+        right:2;
+    }
+
+    .navigation{
+        margin-bottom:60px;
+    }
+
+    nav{
+        width:100%;
+    }
+    nav ul {
+        text-align: center;
+        margin:0;
+    }
+
+    nav ul li {
+        margin-right: 14px;
+    }
+
+    .banner {
+        height: 500px;
+    }
+
+    footer{
+
+        margin-top:40%;
+    }
+}/* END @media screen and (min-width: 320px) and (max-width: 767px)*/
+/* 
+PALM
+*/
+@media screen and (min-width: 768px) and (max-width: 989px) {
+
+    .wrapper{
+    width:100%;
+    }
+
+
+    .basket{
+        float:left;
+    }
+
+    nav ul {
+        margin-left: 80px;
+    }
+
+    .banner h1{
+        padding:5%;
+    }
+   
+}/* END PALM */
+/*
+LAP
+*/
+@media screen and (min-width: 990px) and (max-width: 1357px) {
+
+
+}/* END LAP*/
+/*
+DESK
+*/
+@media screen and (min-width: 1358px) {
+
+} /* END DESK */
+/* 
+PALM & ABOVE
+*/
+@media screen and (min-width: 768px){
+
+  /*     .trolley-con {
+        position:absolute;
+        top:0;
+        right:2;
+    }*/
+}/* END PALM & ABOVE */
+/*
+LAP & ABOVE
+*/
+@media screen and (min-width: 990px) {
+
+}/* END LAP*/
+
